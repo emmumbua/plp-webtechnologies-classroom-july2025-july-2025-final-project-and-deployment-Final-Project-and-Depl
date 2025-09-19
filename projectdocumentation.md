@@ -20,8 +20,7 @@ Deploy the project on GitHub Pages to allow anyone to view it live.
 
 Once published through GitHub Pages, the project is accessible at:
 
-
-
+https://emmumbua.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
 
 4. Features
 User Interface
