@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savory Bites | Menu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="nav-container">
+    <a href="index.html" class="logo">Savory Bites</a>
+    <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="menu.html" class="active">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<section style="padding:2rem; text-align:center;">
+  <h1>Menu</h1>
+  <p><a href="index.html">Home</a> &gt; Menu</p>
+</section>
+
+<section class="cards">
+  <!-- Example dish cards -->
+  <div class="card" data-modal="m1">
+    <img src="https://images.pexels.com/photos/5638330/pexels-photo-5638330.jpeg" alt="Starter">
+    <div class="card-body"><h3>Bruschetta</h3><p>Ksh 600</p></div>
+  </div>
+  <div class="card" data-modal="m2">
+    <img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg" alt="Main">
+    <div class="card-body"><h3>Steak Frites</h3><p>Ksh 1800</p></div>
+  </div>
+  <div class="card" data-modal="m3">
+    <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg" alt="Dessert">
+    <div class="card-body"><h3>Chocolate Cake</h3><p>Ksh 700</p></div>
+  </div>
+</section>
+
+<footer>
+  <p>Mon–Sun 10am–10pm • 123 Food St, Nairobi • 
+     <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+</footer>
+
+<!-- Modals for menu dishes -->
+<div class="modal" id="m1"><div class="modal-content">
+  <img src="https://images.pexels.com/photos/5638330/pexels-photo-5638330.jpeg" alt="Bruschetta">
+  <h3>Bruschetta</h3>
+  <p>Grilled bread, tomatoes, garlic, olive oil.</p>
+  <button class="close-btn">Close</button>
+</div></div>
+<div class="modal" id="m2"><div class="modal-content">
+  <img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg" alt="Steak Frites">
+  <h3>Steak Frites</h3>
+  <p>Classic steak served with crispy fries.</p>
+  <button class="close-btn">Close</button>
+</div></div>
+<div class="modal" id="m3"><div class="modal-content">
+  <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg" alt="Chocolate Cake">
+  <h3>Chocolate Cake</h3>
+  <p>Rich dark chocolate with a molten center.</p>
+  <button class="close-btn">Close</button>
+</div></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

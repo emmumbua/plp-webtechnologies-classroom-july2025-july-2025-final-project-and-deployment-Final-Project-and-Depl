@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savory Bites | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="nav-container">
+    <a href="index.html" class="logo">Savory Bites</a>
+    <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Savory Bites</h1>
+  <p>Delicious meals, unforgettable flavors.</p>
+  <a href="contact.html" class="btn">Reserve a Table</a>
+</section>
+
+<section>
+  <h2 style="text-align:center; margin:2rem 0;">Featured Dishes</h2>
+  <div class="cards">
+    <div class="card" data-modal="dish1-modal">
+      <img src="https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg" alt="Signature Pasta">
+      <div class="card-body">
+        <h3>Signature Pasta</h3>
+        <p>Fresh herbs & creamy sauce – Ksh 1200</p>
+      </div>
+    </div>
+    <div class="card" data-modal="dish2-modal">
+      <img src="https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg" alt="Grilled Steak">
+      <div class="card-body">
+        <h3>Grilled Steak</h3>
+        <p>Juicy perfection – Ksh 1800</p>
+      </div>
+    </div>
+    <div class="card" data-modal="dish3-modal">
+      <img src="https://images.pexels.com/photos/6252738/pexels-photo-6252738.jpeg" alt="Vegan Delight">
+      <div class="card-body">
+        <h3>Vegan Delight</h3>
+        <p>Colorful & healthy – Ksh 1000</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div style="text-align:center; margin:2rem;">
+  <a href="menu.html" class="btn">See Full Menu</a>
+</div>
+
+<footer>
+  <p>Mon–Sun 10am–10pm • 123 Food St, Nairobi • 
+     <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+</footer>
+
+<!-- Modals -->
+<div class="modal" id="dish1-modal">
+  <div class="modal-content">
+    <img src="images/dish1.jpg" alt="Signature Pasta">
+    <h3>Signature Pasta</h3>
+    <p>Homemade pasta tossed in a creamy basil sauce with parmesan.</p>
+    <button class="close-btn">Close</button>
+  </div>
+</div>
+<div class="modal" id="dish2-modal">
+  <div class="modal-content">
+    <img src="images/dish2.jpg" alt="Grilled Steak">
+    <h3>Grilled Steak</h3>
+    <p>Grass-fed beef grilled to perfection, served with garlic butter.</p>
+    <button class="close-btn">Close</button>
+  </div>
+</div>
+<div class="modal" id="dish3-modal">
+  <div class="modal-content">
+    <img src="images/dish3.jpg" alt="Vegan Delight">
+    <h3>Vegan Delight</h3>
+    <p>A vibrant mix of seasonal vegetables with a tangy dressing.</p>
+    <button class="close-btn">Close</button>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
